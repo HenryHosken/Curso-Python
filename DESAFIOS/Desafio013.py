@@ -1,4 +1,4 @@
-Salario=int(input('Valor atual do salario do funcionario:'))
+Salario=float(input('Valor atual do salario do funcionario:'))
 Aumento=int(input('Porcentagem de aumento:'))
 Aumento= (Salario * (Aumento / 100))
 NovoSalario= Salario + Aumento

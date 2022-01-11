@@ -1,4 +1,4 @@
-preço= int(input('Digite o preço do produto: '))
+preço= float(input('Digite o preço do produto: '))
 valor= int(input('Digite o valor do desconto: '))
 ajuste= (valor / 100)
 desconto= preço * (ajuste)
