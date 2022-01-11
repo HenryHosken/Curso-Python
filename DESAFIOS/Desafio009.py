@@ -1,13 +1,13 @@
-Valor= int(input('Digite um valor:'))
-n1= Valor * 1
-n2= Valor * 2
-n3= Valor * 3
-n4= Valor * 4
-n5= Valor * 5
-n6= Valor * 6
-n7= Valor * 7
-n8= Valor * 8
-n9= Valor * 9
-n10= Valor * 10
-
-print ('A Multiplicação do valor digitado é: {}, {}, {}, {}, {}, {}, {}, {}, {}, {}'.format(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10))
+n = int(input('Digite um numero para ver sua Tabuada: '))
+print('='*20)
+print('{} x {} = {}'.format(n, 1,n*1))
+print('{} x {} = {}'.format(n, 2,n*2))
+print('{} x {} = {}'.format(n, 3,n*3))
+print('{} x {} = {}'.format(n, 4,n*4))
+print('{} x {} = {}'.format(n, 5,n*5))
+print('{} x {} = {}'.format(n, 6,n*6))
+print('{} x {} = {}'.format(n, 7,n*7))
+print('{} x {} = {}'.format(n, 8,n*8))
+print('{} x {} = {}'.format(n, 9,n*9))
+print('{} x {} = {}'.format(n, 10,n*10))
+print('='*20)
